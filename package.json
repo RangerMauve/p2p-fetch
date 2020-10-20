@@ -1,0 +1,38 @@
+{
+  "name": "p2p-fetch",
+  "version": "1.0.0",
+  "description": "A fetch interface which supports multiple peer to peer protocols",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --fix && node test",
+    "test-browser": "browserify -d ./test | browser-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/p2p-fetch.git"
+  },
+  "keywords": [
+    "p2p",
+    "fetch",
+    "ipfs",
+    "dat",
+    "hypercore"
+  ],
+  "author": "rangermauve <ranger@mauve.moe> (https://mauve.moe/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/p2p-fetch/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/p2p-fetch#readme",
+  "dependencies": {
+    "cross-fetch": "^3.0.6",
+    "ipfs": "^0.50.2",
+    "js-ipfs-fetch": "^1.0.1",
+    "proto-fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "browser-run": "^8.0.0",
+    "browserify": "^17.0.0",
+    "tape": "^5.0.1"
+  }
+}
